@@ -24,7 +24,7 @@ gdb: $(TARGET)
 clean:
 	rm -rf ./obj/* & rm weditor 
 $(TARGET): $(OBJS)
-	$(CC) $(OBJS) -o $@ $(LDFLAGS)
+	$(CC) $(OBJS) -o $@ $(LDFLAGS) -fsanitize=address
 
 obj/%.o: $(SRC)/%.c
 	@mkdir -p obj
