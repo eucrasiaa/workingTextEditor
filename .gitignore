@@ -1,5 +1,5 @@
-./attempt2/.gdbinit
-./attempt2/.clangd
-./attempt2/compile_commands.json
-./attempt2/.cache
-./attempt2/obj
+attempt2/.gdbinit
+attempt2/.clangd
+attempt2/compile_commands.json
+attempt2/.cache
+attempt2/obj
